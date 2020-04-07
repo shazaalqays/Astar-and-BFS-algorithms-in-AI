@@ -30,8 +30,30 @@ A* Search algorithm is one of the best and popular technique used in path-findin
 ### Pseudocode
 We create two lists – Open List and Closed List.
 ```
-* Initialize the open list
-* Initialize the closed list
-* Put the starting point on the open list
-* Loop until you find the end (while the openList is not empty)
- **
+1. Initialize the open list
+2. Initialize the closed list
+3. Put the starting point on the open list
+4. Loop until you find the end (while the openList is not empty)
+    * Get the current point. 
+      let the currentPoint equal the point with the least f value,
+      remove the currentPoint from the openList,
+      add the currentNode to the closedList.
+    * Found the goal
+      if currentPoint is the goal,
+            You've found the end! Backtrack to get path.
+    * Generate children
+      let the children of the currentPoint equal the adjacent points.
+      for each child in the children
+           * Child is on the closedList
+             if child is in the closedList
+                Continue to beginning of for loop
+           * Create the f, g, and h values
+             child.g = currentPoint.g + distance between child and current
+             child.h = distance from child to end
+             child.f = child.g + child.h
+           * Child is already in openList
+             if child.position is in the openList's points positions
+                if the child.g is higher than the openList point's g
+                    continue to beginning of for loop
+           * Add the child to the openList
+```
