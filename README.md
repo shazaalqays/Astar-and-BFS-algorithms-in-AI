@@ -80,5 +80,20 @@ We create two lists – Explored List and Queue List.
       retrun no path is found
 ```
 # Results
-After checking that everything is done let’s run `astar.py`.
+After checking that everything is done let’s run python files.
+## A* Algorithm's results
+Run `astar.py` file and get the results below.
 ![Result1](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/astar1.png)
+![Result2](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/astar2.png)
+![Result3](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/astar3.png)
+![Result4](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/astar4.png)
+![Result5](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/astar5.png)
+
+## BFS Algorithm's results
+Run `bfs.py` file and get the results below.
+![Result1](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs1.png)
+![Result2](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs2.png)
+![Result3](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs3.png)
+![Result4](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs4.png)
+![Result5](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs5.png)
+
