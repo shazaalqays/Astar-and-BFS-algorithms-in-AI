@@ -14,7 +14,7 @@ image = Image.open(file)
 Before converting image pixels into array we need to chane the dimensions of the image to be 1000x1000.
 ```
 resized = image.resize((1000,1000))
-    resized.save(file)
+resized.save(file)
 ```
 Now we will use numpy library in order to make the image matrix as array.
 ```
@@ -56,4 +56,19 @@ We create two lists – Open List and Closed List.
                 if the child.g is higher than the openList point's g
                     continue to beginning of for loop
            * Add the child to the openList
+```
+## BFS Algorithm
+BFS is a traversing algorithm where we should start traversing from a selected point and traverse the graph layerwise thus exploring the neighbour points. We must then move towards the next-level neighbour points.
+### Pseudocode
+We create two lists – Explored List and Queue List.
+```
+1. Initialize the Explored list
+2. Initialize the Queue list
+3. Put the starting point on the Queue list
+4. If start point equal to end point 
+   return zero
+5. Loop until you find the end (while the QueueList is not empty)
+    * Pop the first path from the queue.
+    * Get the last node from the path.
+    
 ```
