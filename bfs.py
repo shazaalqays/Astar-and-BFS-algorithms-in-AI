@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw
 from numpy import asarray
 import numpy as np
 import math
+import timeit
 
 def getadjacent(n):
     x , y = n
@@ -71,6 +72,8 @@ def main():
     file = input("Plase enter image name: \n")
     image = Image.open(file)
 
+    startt = timeit.default_timer()
+
     resized = image.resize((1000,1000))
     resized.save(file)
 
@@ -78,11 +81,14 @@ def main():
 
     tdata = data.transpose()
 
-    start = (20,310)
-    end = (600,700)
+    start = (500,310)
+    end = (600,400)
 
     path = bfs_shortest_path(tdata,start, end)
     print(path)
+
+    stop = timeit.default_timer()
+    print('Time: ', stop - startt)
 
     draw = ImageDraw.Draw(resized)
     draw.line((start, end), fill=128)

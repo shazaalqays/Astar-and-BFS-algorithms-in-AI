@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw
 from numpy import asarray
 import numpy as np
+import timeit
 
 class Point():
     """A Point class for A* Pathfinding"""
@@ -101,6 +102,8 @@ def main():
     file = input("Plase enter image name: \n")
     image = Image.open(file)
 
+    startt = timeit.default_timer()
+
     resized = image.resize((1000,1000))
     resized.save(file)
 
@@ -111,6 +114,9 @@ def main():
 
     path = astar(data,start, end)
     print(path)
+
+    stop = timeit.default_timer()
+    print('Time: ', stop - startt)
 
     draw = ImageDraw.Draw(resized)
     draw.line((start, end), fill=225)
