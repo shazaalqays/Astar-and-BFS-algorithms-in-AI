@@ -5,6 +5,8 @@ In order to work with images we will use PILLOW library for reading, editing and
 ## Prerequisites
 First of all, we need to install the packages mentioned before pillow, numby and math.
 # Read image
-As mentioned before reading the image will be done using pillow library.
-`file = input("Plase enter image name: \n")`
-`image = Image.open(file)`
+As mentioned before reading the image will be done using pillow library. In `main` function write the part od code bellow.
+```
+file = input("Plase enter image name: \n")
+image = Image.open(file)
+```
