@@ -10,3 +10,20 @@ As mentioned before reading the image will be done using pillow library. In `mai
 file = input("Plase enter image name: \n")
 image = Image.open(file)
 ```
+# Convert image to array
+Before converting image pixels into array we need to chane the dimensions of the image to be 1000x1000.
+```
+resized = image.resize((1000,1000))
+    resized.save(file)
+```
+Now we will use numpy library in order to make the image matrix as array.
+```
+data = np.asarray(resized, dtype='uint8')
+```
+# Finding the path
+We have two different algorithms to find the path, A* and BFS.
+## A* Algorithm
+A* Search algorithm is one of the best and popular technique used in path-finding and graph traversals. What A* Search Algorithm does is that at each step it picks the point according to a value-‘f’ which is a parameter equal to the sum of two other parameters – ‘g’ and ‘h’. At each step it picks the point having the lowest ‘f’, and process that point.
+* F is the total cost of the point.
+* G is the distance between the current point and the start point.
+* H is the heuristic — estimated distance from the current point to the end point.
