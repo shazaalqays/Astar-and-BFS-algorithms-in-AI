@@ -27,3 +27,11 @@ A* Search algorithm is one of the best and popular technique used in path-findin
 * F is the total cost of the point.
 * G is the distance between the current point and the start point.
 * H is the heuristic — estimated distance from the current point to the end point.
+### Pseudocode
+We create two lists – Open List and Closed List.
+```
+* Initialize the open list
+* Initialize the closed list
+* Put the starting point on the open list
+* Loop until you find the end (while the openList is not empty)
+ **
