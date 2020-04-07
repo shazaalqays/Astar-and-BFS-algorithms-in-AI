@@ -68,7 +68,14 @@ We create two lists – Explored List and Queue List.
 4. If start point equal to end point 
    return zero
 5. Loop until you find the end (while the QueueList is not empty)
-    * Pop the first path from the queue.
-    * Get the last node from the path.
-    
+      * Pop the first path from the queue.
+      * Get the last node from the path.
+      * If point not in Explored list
+         * Get neighbours.
+         * Go through all neighbour points, construct a new path and push it into the Queue list.
+         * If neighbour equal to end point
+           return path
+      * Mark point as explored
+   In case there's no path between the 2 points
+      retrun no path is found
 ```
