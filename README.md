@@ -95,7 +95,7 @@ Run `bfs.py` file and get the results below.
 ![Result2](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs2.png)
 ![Result3](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs3.png)
 ![Result4](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs4.png)
-![Result5](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs5.png)
+![Result5](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bsf5.png)
 
 # Conclusion
 There is a time calculation for both A* and BFS algorithms this calculation shows that A* is much faster than BFS in my code they are following approx the same path but A* is faster in reaching the end point and more efficient.
