@@ -97,3 +97,5 @@ Run `bfs.py` file and get the results below.
 ![Result4](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs4.png)
 ![Result5](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/bfs5.png)
 
+# Prepared by
+Chaza Alkis `13011908` and Derya Akcakaya `13011053`
