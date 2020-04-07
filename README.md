@@ -79,3 +79,5 @@ We create two lists – Explored List and Queue List.
    In case there's no path between the 2 points
       retrun no path is found
 ```
+# Results
+After checking that everything is done let’s run `astar.py`.
