@@ -81,3 +81,4 @@ We create two lists – Explored List and Queue List.
 ```
 # Results
 After checking that everything is done let’s run `astar.py`.
+![Result1](https://github.com/shazaalqays/AI-homework-1/tree/master/pics/astar1.png)
