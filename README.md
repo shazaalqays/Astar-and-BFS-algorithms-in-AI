@@ -11,7 +11,7 @@ file = input("Plase enter image name: \n")
 image = Image.open(file)
 ```
 # Convert image to array
-Before converting image pixels into array we need to chane the dimensions of the image to be 1000x1000.
+Before converting image pixels into array we need to change the dimensions of the image to be 1000x1000.
 ```
 resized = image.resize((1000,1000))
 resized.save(file)
