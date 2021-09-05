@@ -1,4 +1,4 @@
-# AI-homework-1
+# A* and BFS algorithms in AI
 We have to find the path between 2 points on image. The user enters the image as well as the 2 points. Algorithms used are A* and BFS then the path will be drawn on the image.
 # Getting Started
 In order to work with images we will use PILLOW library for reading, editing and drawing the line. As well as numpy library to work with matrices. And math library to calculate the distance between the points.
