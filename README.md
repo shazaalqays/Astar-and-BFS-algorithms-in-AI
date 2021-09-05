@@ -101,4 +101,4 @@ Run `bfs.py` file and get the results below.
 There is a time calculation for both A* and BFS algorithms this calculation shows that A* is much faster than BFS in my code they are following approx the same path but A* is faster in reaching the end point and more efficient.
 
 # Prepared by
-Chaza Alkis `13011908` and Derya Akcakaya `13011053`
+Chaza Alkis
